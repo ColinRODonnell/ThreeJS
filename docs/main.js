@@ -14,7 +14,7 @@ camera.position.setZ(50);
 camera.position.setX(-3);
 
 /*Background*/
-const spaceTexture = new THREE.TextureLoader().load('/src/assets/night_sky.jpg')
+const spaceTexture = new THREE.TextureLoader().load('assets/night_sky.jpg')
 spaceTexture.colorSpace = THREE.SRGBColorSpace
 scene.background = spaceTexture
 
